@@ -22,6 +22,10 @@ class TicketsController extends Controller
     public function index()
     {
         $tickets = Tickets::all();
+
+        foreach ($tickets as $ticket){
+            $username = $ticket->user->name;
+        }
       
         return response($tickets, 200)
         ->header('Content-Type', 'application/json');
@@ -61,7 +65,7 @@ class TicketsController extends Controller
         ->header('Content-Type', 'application/json');
     }
 
-    public function getUser(Tickets $tickets, $id)
+    public function getTicketbyUser(Tickets $tickets, $id)
     {
         $tickets = Tickets::where('user_id', $id)->get();
         return response($tickets, 200)

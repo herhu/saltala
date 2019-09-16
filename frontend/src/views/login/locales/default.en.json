@@ -1,0 +1,12 @@
+{
+  "title": "Challenger",
+  "subTitle": "Login here",
+  "email": "Email",
+  "password": "Password",
+  "login": "Login",
+  "notRegister": "Don't have an account?",
+  "register": "Register here!",
+  "validateEmail": "Email is empty",
+  "validateLogin": "Invalid email or password",
+  "recoverPassword": "Forgot your password?"
+}

@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  top: 50px;
+  padding: 15px;
+  padding-top: 30px;
+  transition: all ease 0.3s;
+}
+
+@media (max-width: 768px) {
+  .menu-open .container {
+    filter: blur(4px);
+  }
+}
+
+@media (min-width: 769px) {
+  .container {
+    margin-left: 0;
+    padding: 50px;
+    padding-top: 15px;
+    padding-left: 115px;
+    transition: all ease 0.3s;
+  }
+
+  .menu-open .container {
+    padding-left: 285px;
+  }
+}

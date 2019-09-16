@@ -1,0 +1,13 @@
+{
+  "title": "Desafio",
+  "subTitle": "Ingresa aquí.",
+  "email": "Email",
+  "password": "Contraseña",
+  "login": "Iniciar Sesión",
+  "notRegister": "¿No tienes cuenta?",
+  "register": "¡Regístrate aquí!",
+  "validateEmail": "Ingresa tu email",
+  "validatePassword": "Ingresa tu contraseña",
+  "validatePasswordLogin": "Email o contraseña inválidos.",
+  "recoverPassword": "¿Olvidaste tu contraseña?"
+}

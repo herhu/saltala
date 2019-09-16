@@ -28,7 +28,7 @@ Route::get('tickets/{id}','TicketsController@show');
 Route::get('profiles/{id}','ProfilesController@show');
 
 Route::get('users/profile/{id}','UserController@getProfile');
-Route::get('tickets/user/{id}','TicketsController@getUser');
+Route::get('tickets/user/{id}','TicketsController@getTicketbyUser');
 
 Route::put('tickets/requested/{id}','TicketsController@setRequested');
 Route::put('tickets/user/{id}','TicketsController@setUser');

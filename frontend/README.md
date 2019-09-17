@@ -11,5 +11,5 @@ npm install
 ```js
 REACT_APP_NAME=CHALLENGER_APP
 REACT_APP_ENVIRONMENT=DEVELOPMENT
-REACT_APP_API_URL=http://localhost:5555/api/v1
+REACT_APP_API_URL=http://localhost:8000/api
 ```
